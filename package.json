@@ -1,19 +1,20 @@
 {
-  "homepage" : "https://agharta83.github.io/React-Todolist",
-  "name": "react todolist",
+  "homepage": "https://agharta83.github.io/React-Todolist",
+  "name": "react-todolist",
   "version": "1.0.0",
   "main": "index.js",
   "author": "agharta83",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "auto-reload-brunch": "^2.7.1",
     "autoprefixer": "^8.6.5",
     "babel-brunch": "git+https://github.com/babel/babel-brunch.git",
     "babel-eslint": "^8.2.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "brunch": "^2.10.17",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -28,8 +29,8 @@
   "scripts": {
     "build": "brunch build",
     "start": "brunch watch --server",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
